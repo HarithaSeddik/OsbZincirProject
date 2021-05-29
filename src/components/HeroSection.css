@@ -1,0 +1,69 @@
+video {
+  object-fit: cover;
+  width: 100%;
+  height: 100vw;
+  /* left: 50%; */
+  /* top: 50%; */
+  position: absolute;
+  z-index: -1;
+  transform: "translate";
+}
+.welderGIF {
+  /* object-fit: inherit; */
+  width: 100%;
+  height: 100%;
+  /* position: absolute; */
+  z-index: -1;
+  transform: "translate";
+}
+
+.heroContainer {
+  position: sticky;
+  /* display: st; */
+  /* top: 80px; */
+  background: url("./videos/welder.gif") center center/cover no-repeat;
+  background-size: cover;
+  height: 90vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
+  object-fit: contain;
+  /* width: 100%;
+  height: 100vh; */
+  overflow: hidden;
+}
+
+.heroContainer .fa-typo3 {
+  font-size: 70px;
+}
+
+.heroContainer > h1 {
+  font-size: 5rem;
+  background: none;
+  color: #fff;
+  margin-top: -100px;
+  white-space: nowrap;
+}
+
+.heroContainer > p {
+  background: none;
+  color: #fff;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.fa-play-circle {
+  background: none;
+  margin-left: 4px;
+}
+.hero-btns {
+  margin-top: 32px;
+  background: none;
+}
+
+.hero-btns .btn {
+  margin: 8px;
+}

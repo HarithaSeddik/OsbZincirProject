@@ -1,0 +1,26 @@
+.progressMainWrapper {
+  background-color: black;
+  height: 10px;
+  position: sticky;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  width: 100%;
+  top: 80px;
+}
+
+.Title {
+  font-size: 20px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.progressMainStyle {
+  position: sticky;
+  height: 10px;
+  background-color: #00cc83;
+  top: 80px;
+  /* width: 15%; */
+}
